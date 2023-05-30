@@ -1,0 +1,46 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+#top_header ul{
+    float: right;
+}
+ul>li {
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+}
+    a {
+        text-decoration: none;
+    }
+    a:link, a:visited {
+        color: black;
+    }
+#th_topMenu {
+    width: inherit;
+    height: 50px;
+}
+#th_topMenu li {
+    width: 80px;
+}
+#th_myPage ul {
+    position: absolute;
+    top: 16px;
+    --right: 
+}
+#cate_menu li {
+    width: 120px;
+}
+header {
+    height: 250px;
+}
+#top_header {
+    height: 20px;
+}
+#main_img>img{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-size: cover;
+}
