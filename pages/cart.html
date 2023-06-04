@@ -5,8 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../resources/css/index.css">
-        <link rel="stylesheet" href="../resources/css/join.css">
-        <title>회원가입 화면</title>
+        <link rel="stylesheet" href="../resources/css/cart.css">
+        <title>장바구니 화면</title>
     </head>
     <body>
         <header>
@@ -25,7 +25,7 @@
                             <li><a href="./mypage.html">마이페이지</a>
                                 <ul>
                                     <li><a href="#">주문 조회</a></li>
-                                    <li><a href="#">내정보 수정</a></li>
+                                    <li><a href="./myPageEdit.html">내정보 수정</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -50,59 +50,77 @@
         </nav>
         <main>
             <div class="divArea">
-                <div class="joinDiv">
-                    <h1>기본정보</h1>
+                <div class="cartDiv">
+                    <h1>장바구니</h1>
                     <div>
-                        <div class="inputTag">
+                        <div class="cart_head">
                             <table>
                                 <tr>
-                                    <td>아이디</td>
+                                    <td><input type="checkbox" name="" id="allCheck"></td>
+                                    <td colspan="2">상품명</td>
+                                    <td>수량</td>
+                                    <td>판매가</td>
+                                    <td>합계</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
                                     <td>
-                                        <input type="text">
+                                        <input type="checkbox" name="" id="">
+                                    </td>
+                                    <td class="cart_productImg">
+                                        <img src="../resources/productImg/treadmill01.jpg" alt="쳇바퀴1">
                                     </td>
                                     <td>
-                                        <button>중복확인</button>
+                                        <p>우드꽃모양쳇바퀴</p>
+                                    </td>
+                                    <td>
+                                        <input type="number" name="" id="">
+                                    </td>
+                                    <td>
+                                        <p id="price">20000원</p>
+                                    </td>
+                                    <td>
+                                        <p id="total">20000원</p>
+                                    </td>
+                                    <td>
+                                        <input type="button" value="삭제">
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>비밀번호</td>
-                                    <td colspan="2"><input type="password"></td>
-                                </tr>
-                                <tr>
-                                    <td>비밀번호 확인</td>
-                                    <td colspan="2"><input type="password"></td>
-                                </tr>
-                                <tr>
-                                    <td>이름</td>
-                                    <td colspan="2"><input type="text"></td>
-                                </tr>
-                                <tr>
-                                    <td>E-mail</td>
-                                    <td colspan="2"><input type="email"></td>
-                                </tr>
-                                <tr>
-                                    <td>휴대전화</td>
-                                    <td colspan="2"><input type="number"></td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="3">주소</td>
-                                    <td><input type="text"></td>
-                                    <td><button>우편번호 검색</button></td>
-                                </tr>
-                                <tr>
-                                    <!-- <td></td> -->
-                                    <td colspan="2"><input type="text"></td>
-                                <tr>
-                                    <!-- <td></td> -->
-                                    <td colspan="2"><input type="text"></td>
+                                    <td>
+                                        <input type="checkbox" name="" id="">
+                                    </td>
+                                    <td class="cart_productImg">
+                                        <img src="../resources/productImg/treadmill02.jpg" alt="쳇바퀴1">
+                                    </td>
+                                    <td>
+                                        <p>메탈 쳇바퀴</p>
+                                    </td>
+                                    <td>
+                                        <input type="number" name="" id="">
+                                    </td>
+                                    <td>
+                                        <p id="price">20000원</p>
+                                    </td>
+                                    <td>
+                                        <p id="total">20000원</p>
+                                    </td>
+                                    <td>
+                                        <input type="button" value="삭제">
+                                    </td>
                                 </tr>
                             </table>
+                            <caption>*5만원이상 배송비 무료</caption>
                         </div>
-                        <div class="join_btns">
-                            <button id="joinBtn">
-                                <a href="./login.html">회원가입</a>
-                            </button>
-                            <button id="cancle">취소</button>
+                        <div class="cart_foot">
+                            <div class="sumTotal">
+                                <h4>총 상품금액 + 배송비 = 합계</h4>
+                                <h1>3333원</h1>
+                            </div>
+                            <div class="cartBtns">
+                                <button>선택 상품 주문</button>
+                                <button>전체 상품 준문</button>
+                            </div>
                         </div>
                     </div>
                 </div>

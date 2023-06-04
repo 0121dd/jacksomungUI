@@ -1,0 +1,38 @@
+.divArea {
+    width: 100%;
+    --height: 600px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.producthDiv > h2 {
+    text-align: center;
+}
+.productList li {
+    display: inline-block;
+    padding: 20px;
+}
+.productList li:hover {
+    background-color: coral;
+}
+/* 검색 후 나온 상품들 */
+.products {
+    width: 100%;
+    --display: block;
+}
+.products > ul {
+    padding-left: 0px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.products li {
+    width: 280px;
+    display: inline-block;
+}
+ul .bt_box {
+    height: 350px;
+}
+.bt_box img {
+    width: 200px;
+    height: 250px;
+}

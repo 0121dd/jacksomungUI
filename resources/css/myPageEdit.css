@@ -4,7 +4,7 @@
     margin-top: 80px;
     margin-bottom: 70px;
 }
-.joinDiv {
+.myPageEditDiv {
     border: 1px solid #ccc;
     border-radius: 80px;
     width: 600px;
@@ -12,10 +12,10 @@
     height: 80%;
     padding-top: 50px;
 }
-.joinDiv > div {
+.myPageEditDiv > div {
     --text-align: center;
 }
-.joinDiv > h1 {
+.myPageEditDiv > h1 {
     padding-left: 80px;
 }
 /* 테이블 관련 css */
@@ -35,15 +35,15 @@
     , tr > td:not(button) {
         width: 200px;
     }
-/* 회원가입, 취소 버튼 */
-.join_btns {
+/* 내정보 수정, 취소 버튼 */
+.myPageEdit_btns {
     width: 300px;
     height: 50px;
     margin: auto;
     padding-top: 20px;
     text-align: center;
 }
-#joinBtn, #cancle {
+#editBtn, #cancle {
     width: 40%;
     height: 70%;
     background-color: plum;

@@ -9,7 +9,7 @@ ul li {
 header ul li,nav ul li {
     float: left;
     width: 100px;
-    border: 1px solid #222;
+    --border: 1px solid #222;
     --border-collapse: collapse;
 }
 /* a태그 */
@@ -19,28 +19,53 @@ a {
 a:link, a:visited {
     color: black;
 }
-#th_topMenu {
-    width: inherit;
-    height: 50px;
-}
+/* 헤더중에 상단 메뉴 */
 header {
-    height: 250px;
+    height: 255px;
 }
 #top_header {
-    height: 20px;
+    margin: 5px;
+    height: 255px;
+}
+#th_menu {
+    width: 100%;
+    height: 50px;
+}
+.th_leftSearch {
+    width: 30%;
+    display: inline-flex;
+    --float: left;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+    .th_leftSearch > div {
+        width: 20px;
+        height: 20px;
+        background-image: url(../img/glasses.png);
+        background-size: 100% 100%;
+    }
+#th_rightMenu {
+    --width: 50%;
+    float: right;
+}
+#th_rightMenu li {
+    background-color: #f5d56063;
 }
 /* 메인 이미지 */
-#main_img>img {
-    width: 100%;
+.main_imgDiv {
+    width: 70%;
     height: 200px;
     display: flex;
-    background-size: cover;
+    margin: auto;
+    background-image: url(../img/jacksomung.png);
+    background-size: 100% 100%;
 }
 /* 카테고리 메뉴 */
-#cate_menu {
-    width: inherit;
-    height: 50px;
-    padding: 10px;
+#cate_menu ul{
+    --width: inherit;
+    height: 35px;
+    margin: 15px;
+    background-color: #f5d56063;
 }
 #cate_menu li {
     width: 120px;
@@ -50,15 +75,15 @@ header {
 #th_menu ul{
     float: right;
 }
-#th_topMenu ul ul {
+#th_rightMenu ul ul {
     display: none;
 }
-#th_topMenu>ul>li {
+#th_rightMenu>ul>li {
     display: inline-block;
     position: relative;
 }
 /* 마이페이지 아래 숨겨진 메뉴 */
-#th_topMenu ul li:hover ul {
+#th_rightMenu ul li:hover ul {
     display: block;
     position: absolute;
     left: -41px;
@@ -76,10 +101,21 @@ footer {
     height: 100px;
     border-right: 1px solid #222;
 }
-.left_footer li {
-    display: inline-block;
-    height: 100%;
-}
+    .left_footer > ul {
+        padding: 0;
+        margin-top: 10px;
+    }
+    .left_footer li {
+        display: inline-block;
+        height: 100%;
+    }
+    /* 하단 로고 */
+    .mini_img {
+        width: 110px;
+        height: 100px;
+        background-image: url(../img/mini_logo.png);
+        background-size: 100% 100%;
+    }
 /* 강제로 위치 고정함 */
 .footer_info {
     position: absolute;

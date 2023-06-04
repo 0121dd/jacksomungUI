@@ -5,8 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../resources/css/index.css">
-        <link rel="stylesheet" href="../resources/css/login.css">
-        <title>로그인 화면</title>
+        <link rel="stylesheet" href="../resources/css/myPageEdit.css">
+        <title>내 정보 수정 화면</title>
     </head>
     <body>
         <header>
@@ -25,7 +25,7 @@
                             <li><a href="./mypage.html">마이페이지</a>
                                 <ul>
                                     <li><a href="#">주문 조회</a></li>
-                                    <li><a href="#">내정보 수정</a></li>
+                                    <li><a href="./myPageEdit.html">내정보 수정</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -50,27 +50,57 @@
         </nav>
         <main>
             <div class="divArea">
-                <div id="loginDiv">
-                    <p>LOG IN</p>
-                    <div id="login-header">
-                        <div id="login-header-layer1">
-                            <div id="id-field">
-                                <input type="text" placeholder="ID를 입력하세요.">
-                            </div>
-                            <div id="pw-field">
-                                <input type="password" placeholder="PW를 입력하세요.">
-                            </div>
+                <div class="myPageEditDiv">
+                    <h1>기본정보</h1>
+                    <div>
+                        <div class="inputTag">
+                            <table>
+                                <tr>
+                                    <td>아이디</td>
+                                    <td colspan="2">
+                                        <div>kal1232</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>비밀번호</td>
+                                    <td colspan="2"><input type="password"></td>
+                                </tr>
+                                <tr>
+                                    <td>비밀번호 확인</td>
+                                    <td colspan="2"><input type="password"></td>
+                                </tr>
+                                <tr>
+                                    <td>이름</td>
+                                    <td colspan="2"><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td>E-mail</td>
+                                    <td colspan="2"><input type="email"></td>
+                                </tr>
+                                <tr>
+                                    <td>휴대전화</td>
+                                    <td colspan="2"><input type="number"></td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="3">주소</td>
+                                    <td><input type="text"></td>
+                                    <td><button>우편번호 검색</button></td>
+                                </tr>
+                                <tr>
+                                    <!-- <td></td> -->
+                                    <td colspan="2"><input type="text"></td>
+                                <tr>
+                                    <!-- <td></td> -->
+                                    <td colspan="2"><input type="text"></td>
+                                </tr>
+                            </table>
                         </div>
-                        <div id="login-header-layer2">
-                            <button id="loginBtn">로그인</button>
+                        <div class="myPageEdit_btns">
+                            <button id="editBtn">
+                                <a href="./mainPage.html">기본정보 수정</a>
+                            </button>
+                            <button id="cancle">취소</button>
                         </div>
-                    </div>
-                    <div class="login_bottom">
-                        <ul>
-                            <li><a href="">회원가입</a></li>
-                            <li><a href="">아이디찾기</a></li>
-                            <li><a href="">비밀번호 찾기</a></li>
-                        </ul>
                     </div>
                 </div>
             </div>
