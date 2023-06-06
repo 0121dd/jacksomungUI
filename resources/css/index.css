@@ -38,7 +38,7 @@ header {
     padding-left: 50px;
     padding-top: 20px;
 }
-    .th_leftSearch > div {
+    .th_leftSearch > a > div {
         width: 20px;
         height: 20px;
         background-image: url(../img/glasses.png);
@@ -49,7 +49,10 @@ header {
     float: right;
 }
 #th_rightMenu li {
-    background-color: #f5d56063;
+    background-color: #F9FBE7;
+}
+#th_rightMenu li:hover {
+    background: radial-gradient(circle closest-side,#C4B0FF,#F9FBE7)
 }
 /* 메인 이미지 */
 .main_imgDiv {
@@ -65,11 +68,14 @@ header {
     --width: inherit;
     height: 35px;
     margin: 15px;
-    background-color: #f5d56063;
+    background-color: #F9FBE7;
 }
 #cate_menu li {
     width: 120px;
     padding: 5px 0;
+}
+#cate_menu li:hover {
+    background: radial-gradient(circle closest-side,#C4B0FF,#F9FBE7);
 }
 /* 상단 메뉴 */
 #th_menu ul{
@@ -101,8 +107,8 @@ footer {
     height: 100px;
     border-right: 1px solid #222;
 }
-    .left_footer > ul {
-        padding: 0;
+.left_footer > ul {
+    padding: 0;
         margin-top: 10px;
     }
     .left_footer li {
@@ -116,14 +122,16 @@ footer {
         background-image: url(../img/mini_logo.png);
         background-size: 100% 100%;
     }
-/* 강제로 위치 고정함 */
-.footer_info {
-    position: absolute;
-    top: 15px;
-}
-.right_footer {
-    float: right;
-    position: absolute;
-    bottom: 42px;
-    right: 50px;
-}
+    /* 강제로 위치 고정함 */
+    .footer_info {
+        margin-left: 20px;
+        text-align: left;
+        position: absolute;
+        top: 15px;
+    }
+    .right_footer {
+        float: right;
+        position: absolute;
+        bottom: 22px;
+        right: 150px;
+    }

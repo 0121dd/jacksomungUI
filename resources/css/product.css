@@ -7,12 +7,23 @@
 .producthDiv > h2 {
     text-align: center;
 }
+.productList > ul {
+    padding: 0;
+    margin: 15px;
+    background-color: #F9F5F6;
+}
 .productList li {
     display: inline-block;
-    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+}
+.productList li:last-child {
+    border-right: 0;
 }
 .productList li:hover {
-    background-color: coral;
+    background: radial-gradient(circle closest-side,#FDCEDF,#F9F5F6);
 }
 /* 검색 후 나온 상품들 */
 .products {

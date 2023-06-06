@@ -5,8 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../resources/css/index.css">
-        <link rel="stylesheet" href="../resources/css/detailPd.css">
-        <title>상품 상세 화면</title>
+        <link rel="stylesheet" href="../resources/css/csDetail.css">
+        <title>고객센터-상세 화면</title>
     </head>
     <body>
         <header>
@@ -52,55 +52,40 @@
         </nav>
         <main>
             <div class="divArea">
-                <div class="detailPdDiv">
-                    <h2>장난감/쳇바퀴</h2>
-                    <div class="detailPdList"> 
+                <div class="noticDiv">
+                    <h2>고객센터</h2>
+                    <div class="nbList"> 
                         <ul>
-                            <li><a href="#">장난감</a></li>
-                            <li><a href="#">쳇바퀴</a></li>
+                            <li><a href="./customerService.html">공지사항</a></li>
+                            <li><a href="./productInquiry.html">상품문의</a></li>
+                            <li><a href="#">FAQ</a></li>
                         </ul>
                     </div>
-                    <div class="productDetail">
-                        <div class="pd_top">
-                            <div class="pd_left">
-                                <img src="../resources/productImg/treadmill03.jpg" alt="쳇바퀴3">
-                            </div>
-                            <div>
-                            </div>
-                            <div class="pd_right">
-                                <div>
-                                    <h3>우드 쳇바퀴</h3>
-                                    <div>
-                                        <table>
-                                            <tr>
-                                                <td>판매가</td>
-                                                <td>30,000원</td>
-                                            </tr>
-                                            <tr>
-                                                <td>상품명</td>
-                                                <td>우드 쳇바퀴</td>
-                                            </tr>
-                                            <tr>
-                                                <td>상품수</td>
-                                                <td>
-                                                    <button>-</button>
-                                                    <span>1</span>
-                                                    <button>+</button>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                        <p>Total : 30,000원</p>
-                                    </div>
-                                    <div class="pd_right_button">
-                                        <button>장바구니</button>
-                                        <button>바로 구매</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pd_bottom"> 
-
-                        </div>
+                    <div class="csDetailDiv">
+                        <table>
+                            <tr>
+                                <td>제목</td>
+                                <td>현금영수증은 어떻게 발급받나요?</td>
+                            </tr>
+                            <tr>
+                                <td>작성자</td>
+                                <td>작소뭉</td>
+                            </tr>
+                            <tr>
+                                <td>작성일</td>
+                                <td>2023.05.25</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><div>
+                                    현금영수증은 무통장입금시 발급 가능합니다. <br>
+                                    발급방법은 다음과 같습니다. <br>
+                                    주문서 작성시 바로 신청이 가능합니다. <br>
+                                    면세상품으로 인해 발급이 불가하다는 메시지가 보이는 경우 배송메시지에 현금영수증 발급받으실 번호를 남겨주시거나 고객센터로 연락주세요. <br>
+                                    *입금일로 부터 30일간 발급 가능합니다.
+                                </div></td>
+                            </tr>
+                        </table>
+                        <button id="backBtn">목록</button>
                     </div>
                 </div>
             </div>

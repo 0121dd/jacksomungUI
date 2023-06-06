@@ -33,7 +33,7 @@ table td > input {
     width: 100%;
 }
 .cart_head table tr:first-child {
-    background-color: rgba(221, 161, 155,0.5);
+    background-color: #EEF1FF;
 }
 /* 총합계 */
 .cart_foot {
@@ -41,7 +41,7 @@ table td > input {
     text-align: right;
 }
 .sumTotal {
-    background-color: rgba(221, 161, 155,0.5);
+    background-color: #EEF1FF;
     padding: 3px;
 }
 /* 버튼부분 */

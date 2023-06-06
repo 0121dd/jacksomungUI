@@ -31,19 +31,23 @@
     .nbList li:hover {
         background: radial-gradient(circle closest-side,#FDCEDF,#F9F5F6);
     }
-/* 테이블 css */
-.noticeBoard {
+/* 테이블 */
+.csDetailDiv {
     width: 70%;
     margin: auto;
 }
-.noticeBoard table {
+.csDetailDiv table {
     width: 100%;
     padding-top: 15px;
 }
-.noticeBoard table td {
+.csDetailDiv table td {
     border: 1px solid #ccc;
 }
-.noticeBoard td:last-child, .noticeBoard td:nth-last-child(2)
-, .noticeBoard td:first-child {
-    width: 100px;
+.csDetailDiv div {
+    padding: 15px;
+}
+#backBtn {
+    width: 70px;
+    height: 30px;
+    margin-top: 20px;
 }
