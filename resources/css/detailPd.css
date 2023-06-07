@@ -69,3 +69,8 @@
     width: 100px;
     height: 35px;
 }
+/* 하단에 상세설명 이미지 부분 */
+.pd_bottom > div {
+    width: 800px;
+    margin: auto;
+}

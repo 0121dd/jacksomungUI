@@ -35,6 +35,10 @@ table td > input {
 .cart_head table tr:first-child {
     background-color: #EEF1FF;
 }
+.cart_head table input[type=button] {
+    background-color: #F8E8EE;
+    border: 1px solid #ccc;
+}
 /* 총합계 */
 .cart_foot {
     width: 100%;
@@ -49,4 +53,6 @@ table td > input {
     width: 150px;
     height: 50px;
     margin-top: 10px;
+    background-color: #F8E8EE;
+    border: 1px solid #ccc;
 }

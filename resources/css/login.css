@@ -37,6 +37,7 @@ p {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 80px;
+    background-color: #ECF9FF;
 }
 #login-header {
     width: 400px;
@@ -65,5 +66,8 @@ p {
     #loginBtn {
         width: 80%;
         height: 80%;
-        background: lightpink;
+        background: #F8E8EE;
+        border: 1px solid #ccc;
+        font-size: large;
+        border-radius: 20px;
     }

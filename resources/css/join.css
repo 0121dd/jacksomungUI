@@ -11,6 +11,7 @@
     margin: auto;
     height: 80%;
     padding-top: 50px;
+    background-color: #ECF9FF;
 }
 .joinDiv > div {
     --text-align: center;
@@ -35,6 +36,10 @@
     , tr > td:not(button) {
         width: 200px;
     }
+.inputTag button {
+    background-color: #F8E8EE;
+    border: 1px solid #ccc;
+}
 /* 회원가입, 취소 버튼 */
 .join_btns {
     width: 300px;
@@ -46,5 +51,6 @@
 #joinBtn, #cancle {
     width: 40%;
     height: 70%;
-    background-color: plum;
+    background-color: #F8E8EE;
+    border: 1px solid #ccc;
 }
