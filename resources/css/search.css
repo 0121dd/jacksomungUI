@@ -19,7 +19,8 @@
 .searchWrap {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-    background-color: rgba(212, 208, 165,0.3);
+    --background-color: rgba(212, 208, 165,0.3);
+    background: radial-gradient(circle farthest-corner, #FFF,rgba(212, 208, 165,0.3));
 }
 .sd_div input {
     width: 200px;

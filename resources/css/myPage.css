@@ -40,5 +40,6 @@
 #myPageBtn {
     width: 40%;
     height: 70%;
-    background-color: plum;
+    background-color: #F8E8EE;
+    border: 1px solid #ccc;
 }
